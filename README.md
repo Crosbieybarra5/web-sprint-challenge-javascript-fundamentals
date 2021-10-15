@@ -25,13 +25,17 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+
         .map and.filter both return a new array of elements, but.reduce returns a single value..map and.filter callback each element, index, and return in turn, whereas the.reduce function takes a previous value and a next value..filter takes a callback that runs a truth test(if true, return the element else ignore) and can also be used to filter out an array of elements based on a condition..map is a data manipulation and reshaping tool. For altering or rearranging data into a single value,.reduce is used.
 2. Explain the difference between a callback and a higher order function.
+
         A  callback function is passed into other function as argument.
         A  higher order function receives other function as parameters.
 3. Explain what a closure is.
+
         When an inner function goes outside of its scope to grab a variable defined in an outside function, it is called a closure.
 4. Describe the four principles of the 'this' keyword.
+
         1 - Window or Global Object Binding - If you call this from the global scope, it will try to figure out what the window object is.
 
         2 - Implicit Binding - When you invoke a function that includes this with a dot, this understands that the dot refers to the object before the dot. When an object is passed as an argument to a function, 'this' recognizes that it belongs to that object.
@@ -40,6 +44,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
         4 - Explicit Binding - when you use.call() to call a function. In the first parameter of apply() or.bind(), you specify the object to which this refers.
 5. Why do we need super() in an extended class?
+
          It calls the parent class and passes the parameters to the child.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
